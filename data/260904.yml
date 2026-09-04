@@ -1,27 +1,29 @@
 about:
-  description: 🌀 A log file highlighter
+  description:
+  |
+    🌀 A log file highlighter
   license: MIT
   homepage: 
   head: 60364f3
   archived: false
   latestVersion: 7.0.0
-  collectedAt: 2026-09-04T04:30:45Z
+  collectedAt: 2026-09-04T19:32:43Z
 timeline:
   created: 2022-07-03
   lastCommit: 2026-08-17
   lastRelease: 2026-07-14
 popularity:
-  star: 7951
+  star: 7953
   watcher: 18
   fork: 136
   release: 36
   contributor: 16
-  pullRequest: 17
+  pullRequest: 180
   issue: 89
 language:
   Rust: 295824
   Shell: 10
-totalLine: 295834
+totalBytes: 295834
 recent:
   last30d:
     since: 2026-08-05
@@ -31,6 +33,14 @@ recent:
     closedIssue: 1
     openIssue: 0
     commit: 2
+  last60d:
+    since: 2026-07-06
+    release: 1
+    mergedPR: 7
+    openPR: 0
+    closedIssue: 1
+    openIssue: 1
+    commit: 28
   last90d:
     since: 2026-06-06
     release: 1
@@ -55,3 +65,21 @@ recent:
     closedIssue: 9
     openIssue: 1
     commit: 248
+  last720d:
+    since: 2024-09-14
+    release: 16
+    mergedPR: 72
+    openPR: 0
+    closedIssue: 28
+    openIssue: 1
+    commit: 539
+total:
+  release: 36
+  mergedPR: 163
+  openPR: 0
+  closedIssue: 88
+  openIssue: 1
+  commit: 1232
+---
+---
+
