@@ -5,13 +5,13 @@ about:
   head: 8ecaa9a
   archived: false
   latestVersion: "7.0.0"
-  collectedAt: 2026-09-07T05:34:07Z
+  collectedAt: 2026-09-07T18:50:34Z
 timeline:
   created: 2022-07-03
   lastCommit: 2026-09-07
   lastRelease: 2026-07-14
 popularity:
-  star: 7953
+  star: 7958
   watcher: 19
   fork: 137
   release: 36
@@ -80,7 +80,7 @@ total:
   commit: 1233
 ---
 path: /home/runner/.x-repo/github.com/bensadeh/tailspin
-collectedAt: 2026-09-07T05:34:13Z
+collectedAt: 2026-09-07T18:50:35Z
 loc:
   Rust:
     code: 7452
@@ -136,7 +136,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T05:34:16+00:00
+  collectedAt: 2026-09-07T18:50:35+00:00
   platform:
     darwin/arm64:
       name:  tailspin-aarch64-apple-darwin.tar.gz
