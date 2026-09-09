@@ -7,7 +7,7 @@
 - **Latest release**: `7.0.0` (2026-07-14)
 - **Last commit**: 2026-09-07
 - **License**: MIT
-- **Stars**: 7959 · **Forks**: 137 · **Open issues**: 89 · **Contributors**: 16
+- **Stars**: 7960 · **Forks**: 138 · **Open issues**: 89 · **Contributors**: 16
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/tailspin> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T11:54:42Z._
+_Last regenerated: 2026-09-09T05:55:20Z._
