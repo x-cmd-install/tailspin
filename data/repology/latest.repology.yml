@@ -1,0 +1,629 @@
+- repo: chimera
+  subrepo: user
+  srcname: tailspin
+  binname: tailspin-man
+  visiblename: tailspin-man
+  version: 5.5.0
+  origversion: 5.5.0-r0
+  status: outdated
+  summary: Log file highlighter (manual pages)
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: tailspin
+  visiblename: tailspin
+  version: 3.0.1
+  origversion: null
+  status: outdated
+  summary: A log file highlighter
+  maintainers:
+    - 7rat13@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: tailspin
+  visiblename: tailspin
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - 7rat13@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: tailspin
+  visiblename: tailspin
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - 7rat13@gmail.com
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: tailspin
+  binname: tailspin-doc
+  visiblename: tailspin-doc
+  version: 5.5.0
+  origversion: 5.5.0-r0
+  status: outdated
+  summary: Log file highlighter (documentation)
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0-2
+  status: newest
+  summary: A log file highlighter
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0-r0
+  status: newest
+  summary: Log file highlighter
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
+  srcname: tailspin
+  binname: tailspin-bash-completion
+  visiblename: tailspin-bash-completion
+  version: 7.0.0
+  origversion: 7.0.0-r0
+  status: newest
+  summary: Bash completions for tailspin
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
+  srcname: tailspin
+  binname: tailspin-doc
+  visiblename: tailspin-doc
+  version: 7.0.0
+  origversion: 7.0.0-r0
+  status: newest
+  summary: Log file highlighter (documentation)
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
+  srcname: tailspin
+  binname: tailspin-fish-completion
+  visiblename: tailspin-fish-completion
+  version: 7.0.0
+  origversion: 7.0.0-r0
+  status: newest
+  summary: Fish completions for tailspin
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
+  srcname: tailspin
+  binname: tailspin-zsh-completion
+  visiblename: tailspin-zsh-completion
+  version: 7.0.0
+  origversion: 7.0.0-r0
+  status: newest
+  summary: Zsh completions for tailspin
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - MIT
+- repo: alt_p11
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 6.0.0
+  origversion: 6.0.0-alt1
+  status: outdated
+  summary: A log file highlighter
+  maintainers:
+    - zerospirit@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Shells
+- repo: altsisyphus
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0-alt1
+  status: newest
+  summary: A log file highlighter
+  maintainers:
+    - zerospirit@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Shells
+- repo: arch
+  subrepo: extra
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0-2
+  status: newest
+  summary: A log file highlighter
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 5.5.0
+  origversion: 5.5.0-r0
+  status: outdated
+  summary: Log file highlighter
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: tailspin
+  binname: tailspin-bashcomp
+  visiblename: tailspin-bashcomp
+  version: 5.5.0
+  origversion: 5.5.0-r0
+  status: outdated
+  summary: Log file highlighter (bash completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: tailspin
+  binname: tailspin-fishcomp
+  visiblename: tailspin-fishcomp
+  version: 5.5.0
+  origversion: 5.5.0-r0
+  status: outdated
+  summary: Log file highlighter (fish completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: tailspin
+  binname: tailspin-zshcomp
+  visiblename: tailspin-zshcomp
+  version: 5.5.0
+  origversion: 5.5.0-r0
+  status: outdated
+  summary: Log file highlighter (zsh completions)
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  summary: A log file highlighter
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 6.1.0
+  origversion: 6.1.0+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 6.1.0
+  origversion: 6.1.0+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 6.1.0
+  origversion: 6.1.0+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: freebsd
+  srcname: sysutils/tailspin
+  binname: tailspin
+  visiblename: sysutils/tailspin
+  version: 7.0.0
+  origversion: 7.0.0_2
+  status: newest
+  summary: Log file highlighter
+  maintainers:
+    - tagattie@freebsd.org
+  categories:
+    - sysutils
+- repo: gentoo_ovl_guru
+  srcname: dev-util/tailspin
+  visiblename: dev-util/tailspin
+  version: 5.4.5
+  origversion: null
+  status: outdated
+  summary: A log file highlighter
+  maintainers:
+    - kupravagoodman@proton.me
+  licenses:
+    - MIT Apache-2.0 ISC MIT MPL-2.0 Unicode-3.0 || ( Artistic-2 CC0-1.0 )
+  categories:
+    - dev-util
+- repo: homebrew
+  srcname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  summary: Log file highlighter
+- repo: homebrew
+  srcname: tailspin
+  visiblename: tailspin
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Log file highlighter
+- repo: kali_rolling
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 6.1.0
+  origversion: 6.1.0+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: dev-util/tailspin
+  visiblename: dev-util/tailspin
+  version: 5.4.5
+  origversion: null
+  status: outdated
+  summary: A log file highlighter
+  maintainers:
+    - kupravagoodman@proton.me
+  licenses:
+    - MIT Apache-2.0 ISC MIT MPL-2.0 Unicode-3.0 || ( Artistic-2 CC0-1.0 )
+  categories:
+    - dev-util
+- repo: liguros_develop
+  srcname: dev-util/tailspin
+  visiblename: dev-util/tailspin
+  version: 5.4.5
+  origversion: null
+  status: outdated
+  summary: A log file highlighter
+  maintainers:
+    - kupravagoodman@proton.me
+  licenses:
+    - MIT Apache-2.0 ISC MIT MPL-2.0 Unicode-3.0 || ( Artistic-2 CC0-1.0 )
+  categories:
+    - dev-util
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0-2
+  status: newest
+  summary: A log file highlighter
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0-2
+  status: newest
+  summary: A log file highlighter
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: tailspin
+  visiblename: tailspin
+  version: 5.5.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - 7rat13@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: tailspin
+  visiblename: tailspin
+  version: 5.5.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: tailspin
+  visiblename: tailspin
+  version: 6.1.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0-2
+  status: newest
+  summary: A log file highlighter
+  licenses:
+    - MIT
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: pkgsrc_2026_1
+  srcname: misc/tailspin
+  binname: tailspin
+  visiblename: misc/tailspin
+  version: 5.5.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: pkgsrc_2026_2
+  srcname: misc/tailspin
+  binname: tailspin
+  visiblename: misc/tailspin
+  version: 6.1.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: pkgsrc_current
+  srcname: misc/tailspin
+  binname: tailspin
+  visiblename: misc/tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  summary: Log file highlighter
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - admin
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 6.0.0
+  origversion: 6.0.0+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: stalix
+  srcname: bin/tail/spin
+  binname: bin/tail/spin
+  visiblename: bin/tail/spin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/tail/spin
+  binname: bin/tail/spin
+  visiblename: bin/tail/spin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 2.0.0
+  origversion: 2.0.0+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 4.0.0
+  origversion: 4.0.0+dfsg-4
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.5.0
+  origversion: 5.5.0+dfsg-3
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 6.1.0
+  origversion: 6.1.0+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: tailspin
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0_1
+  status: newest
+  summary: Log file highlighter
+  maintainers:
+    - zen@osowoso.org
+  licenses:
+    - MIT
