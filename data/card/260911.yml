@@ -7,7 +7,7 @@ about:
   latestVersion: "7.0.0"
   latestRelease: "7.0.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:42:53Z
+  collectedAt: 2026-09-11T19:11:17Z
 timeline:
   created: 2022-07-03
   lastCommit: 2026-09-07
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-07-14
   lastPrerelease: 
 popularity:
-  star: 7962
+  star: 7963
   watcher: 19
   fork: 138
   release: 36
@@ -84,7 +84,7 @@ total:
   commit: 1233
 ---
 path: /home/runner/.x-repo/github.com/bensadeh/tailspin
-collectedAt: 2026-09-11T05:42:55Z
+collectedAt: 2026-09-11T19:11:18Z
 loc:
   Rust:
     code: 7452
