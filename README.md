@@ -47,12 +47,12 @@ Total: **7,930** lines of code across **71** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 2 | 0 | 1 | 0 | 2 |
-| last60d | 2026-07-12 | 1 | 8 | 0 | 1 | 1 | 8 |
-| 90d | 2026-06-12 | 1 | 9 | 0 | 1 | 1 | 68 |
-| last180d | 2026-03-14 | 3 | 18 | 0 | 2 | 1 | 168 |
-| 360d | 2025-09-15 | 3 | 35 | 0 | 9 | 1 | 248 |
-| last720d | 2024-09-20 | 16 | 73 | 0 | 28 | 1 | 540 |
+| 30d | 2026-08-12 | 0 | 2 | 0 | 1 | 0 | 2 |
+| last60d | 2026-07-13 | 1 | 7 | 0 | 1 | 1 | 8 |
+| 90d | 2026-06-13 | 1 | 9 | 0 | 1 | 1 | 68 |
+| last180d | 2026-03-15 | 3 | 18 | 0 | 2 | 1 | 168 |
+| 360d | 2025-09-16 | 3 | 35 | 0 | 9 | 1 | 248 |
+| last720d | 2024-09-21 | 16 | 73 | 0 | 28 | 1 | 540 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for tailspin lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:30:05Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:43:06Z._
