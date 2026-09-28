@@ -32,7 +32,7 @@ Total: **7,930** lines of code across **71** files in the top 5 languages.
 ## Release
 
 - **Latest**: `7.0.0` (2026-07-14)
-- **Last commit**: 2026-09-14
+- **Last commit**: 2026-09-28
 - **Assets in release**: 5
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **7,930** lines of code across **71** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 165 · **Open PRs**: 0 · **Closed issues**: 88 · **Open issues**: 2 · **Commits**: 1234
+- **Releases**: 36 · **Merged PRs**: 166 · **Open PRs**: 0 · **Closed issues**: 88 · **Open issues**: 2 · **Commits**: 1235
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 2 | 0 | 0 | 1 | 2 |
-| last60d | 2026-07-29 | 0 | 5 | 0 | 1 | 1 | 5 |
-| 90d | 2026-06-29 | 1 | 9 | 0 | 1 | 2 | 65 |
-| last180d | 2026-03-31 | 3 | 17 | 0 | 2 | 2 | 145 |
-| 360d | 2025-10-02 | 3 | 35 | 0 | 8 | 2 | 248 |
-| last720d | 2024-10-07 | 16 | 74 | 0 | 28 | 2 | 541 |
+| 30d | 2026-08-29 | 0 | 3 | 0 | 0 | 1 | 3 |
+| last60d | 2026-07-30 | 0 | 6 | 0 | 1 | 1 | 5 |
+| 90d | 2026-06-30 | 1 | 10 | 0 | 1 | 2 | 41 |
+| last180d | 2026-04-01 | 3 | 18 | 0 | 2 | 2 | 122 |
+| 360d | 2025-10-03 | 3 | 36 | 0 | 8 | 2 | 249 |
+| last720d | 2024-10-08 | 16 | 75 | 0 | 28 | 2 | 542 |
 
 ## Release assets
 
@@ -73,4 +73,4 @@ Install metadata for tailspin lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:06:12Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:14:29Z._
