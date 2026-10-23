@@ -37,7 +37,7 @@ Total: **7,931** lines of code across **71** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 7,998 · **Forks**: 140 · **Open issues**: 90 · **Contributors**: 16
+- **Stars**: 7,999 · **Forks**: 140 · **Open issues**: 90 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **7,931** lines of code across **71** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 3 | 0 | 0 | 1 | 5 |
-| last60d | 2026-08-23 | 0 | 5 | 0 | 1 | 1 | 7 |
-| 90d | 2026-07-24 | 0 | 9 | 0 | 1 | 2 | 11 |
-| last180d | 2026-04-25 | 2 | 18 | 0 | 2 | 2 | 118 |
-| 360d | 2025-10-27 | 3 | 36 | 0 | 7 | 2 | 249 |
-| last720d | 2024-11-01 | 15 | 75 | 0 | 25 | 2 | 472 |
+| 30d | 2026-09-23 | 0 | 3 | 0 | 0 | 1 | 5 |
+| last60d | 2026-08-24 | 0 | 5 | 0 | 1 | 1 | 7 |
+| 90d | 2026-07-25 | 0 | 9 | 0 | 1 | 2 | 11 |
+| last180d | 2026-04-26 | 2 | 18 | 0 | 2 | 2 | 118 |
+| 360d | 2025-10-28 | 3 | 36 | 0 | 7 | 2 | 249 |
+| last720d | 2024-11-02 | 15 | 75 | 0 | 25 | 2 | 472 |
 
 ## Release assets
 
@@ -64,6 +64,23 @@ Total: **7,931** lines of code across **71** files in the top 5 languages.
 | [tailspin-x86_64-pc-windows-msvc.zip](https://github.com/bensadeh/tailspin/releases/download/7.0.0/tailspin-x86_64-pc-windows-msvc.zip) | 1.2 MiB | `native/win/x64` |
 | [tailspin-x86_64-unknown-linux-musl.tar.gz](https://github.com/bensadeh/tailspin/releases/download/7.0.0/tailspin-x86_64-unknown-linux-musl.tar.gz) | 1.3 MiB | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **53** distros on [repology.org](https://repology.org/project/tailspin). **26** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `7.0.0` | ✅ latest |
+| Debian 14 | `7.0.0` | ✅ latest |
+| Debian 13 | `5.4.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.5.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.0.0` | ⚠️ outdated |
+| Arch | `7.0.0` | ✅ latest |
+| Homebrew | `7.0.0` | ✅ latest |
+| Nix unstable | `7.0.0` | ✅ latest |
+| Void | `7.0.0` | ✅ latest |
+| Alpine edge | `7.0.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for tailspin lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `tailspin` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -73,4 +90,4 @@ Install metadata for tailspin lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:38:40Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:37:08Z._
