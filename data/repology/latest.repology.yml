@@ -1,57 +1,16 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: tailspin
   binnames:
     - tailspin
   visiblename: tailspin
-  version: 7.0.0
-  origversion: 7.0.0+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: tailspin
-  visiblename: tailspin
-  version: 7.0.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 5.4.2
-  origversion: 5.4.2~dfsg-1
+  version: 2.0.0
+  origversion: 2.0.0+dfsg-1
   status: outdated
   maintainers:
     - dr@jones.dk
   categories:
-    - misc
-- repo: pkgsrc_2026_2
-  srcname: misc/tailspin
-  binname: tailspin
-  visiblename: misc/tailspin
-  version: 6.1.0
-  origversion: null
-  status: outdated
-  summary: Log file highlighter
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: chocolatey
-  binname: tailspin
-  visiblename: tailspin
-  version: 7.0.0
-  origversion: null
-  status: newest
-  summary: A log file highlighter
+    - universe/misc
 - repo: alpine_edge
   subrepo: testing
   srcname: tailspin
@@ -65,6 +24,19 @@
     - folliekazetani@protonmail.com
   licenses:
     - MIT
+- repo: kali_rolling
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: tailspin
@@ -78,19 +50,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - MIT
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 5.4.2
-  origversion: 5.4.2~dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: tailspin
@@ -237,6 +196,26 @@
   summary: Log file highlighter (zsh completions)
   licenses:
     - MIT
+- repo: chocolatey
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  summary: A log file highlighter
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: debian_14
   subrepo: forky/main
   srcname: tailspin
@@ -288,56 +267,6 @@
     - tagattie@freebsd.org
   categories:
     - sysutils
-- repo: pkgsrc_2026_3
-  srcname: misc/tailspin
-  binname: tailspin
-  visiblename: misc/tailspin
-  version: 7.0.0
-  origversion: null
-  status: newest
-  summary: Log file highlighter
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: pkgsrc_current
-  srcname: misc/tailspin
-  binname: tailspin
-  visiblename: misc/tailspin
-  version: 7.0.0
-  origversion: null
-  status: newest
-  summary: Log file highlighter
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 5.4.2
-  origversion: 5.4.2~dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - admin
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 5.4.2
-  origversion: 5.4.2~dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: gentoo_ovl_guru
   srcname: dev-util/tailspin
   visiblename: dev-util/tailspin
@@ -365,19 +294,6 @@
   origversion: null
   status: rolling
   summary: Log file highlighter
-- repo: kali_rolling
-  subrepo: main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 7.0.0
-  origversion: 7.0.0+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: dev-util/tailspin
   visiblename: dev-util/tailspin
@@ -404,28 +320,6 @@
     - MIT Apache-2.0 ISC MIT MPL-2.0 Unicode-3.0 || ( Artistic-2 CC0-1.0 )
   categories:
     - dev-util
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: tailspin
-  binname: tailspin
-  visiblename: tailspin
-  version: 7.0.0
-  origversion: 7.0.0-2
-  status: newest
-  summary: A log file highlighter
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: tailspin
-  binname: tailspin
-  visiblename: tailspin
-  version: 7.0.0
-  origversion: 7.0.0-2
-  status: newest
-  summary: A log file highlighter
-  licenses:
-    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: tailspin
@@ -515,6 +409,19 @@
   licenses:
     - MIT
 - repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: parrot
   subrepo: parrot/main
   srcname: tailspin
   binnames:
@@ -527,6 +434,90 @@
     - dr@jones.dk
   categories:
     - misc
+- repo: pkgsrc_2026_2
+  srcname: misc/tailspin
+  binname: tailspin
+  visiblename: misc/tailspin
+  version: 6.1.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: pkgsrc_2026_3
+  srcname: misc/tailspin
+  binname: tailspin
+  visiblename: misc/tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  summary: Log file highlighter
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: pkgsrc_current
+  srcname: misc/tailspin
+  binname: tailspin
+  visiblename: misc/tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  summary: Log file highlighter
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - admin
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: stalix
   srcname: bin/tail/spin
   binname: bin/tail/spin
@@ -549,19 +540,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 2.0.0
-  origversion: 2.0.0+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
 - repo: ubuntu_25_04
   subrepo: plucky/universe
   srcname: tailspin
