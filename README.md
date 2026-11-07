@@ -47,12 +47,12 @@ Total: **7,931** lines of code across **71** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 2 | 0 | 0 | 0 | 2 |
-| last60d | 2026-09-07 | 0 | 4 | 0 | 0 | 1 | 6 |
-| 90d | 2026-08-08 | 0 | 7 | 0 | 1 | 1 | 9 |
-| last180d | 2026-05-10 | 2 | 16 | 0 | 1 | 2 | 108 |
-| 360d | 2025-11-11 | 3 | 35 | 0 | 7 | 2 | 248 |
-| last720d | 2024-11-16 | 15 | 74 | 0 | 23 | 2 | 471 |
+| 30d | 2026-10-08 | 0 | 2 | 0 | 0 | 0 | 2 |
+| last60d | 2026-09-08 | 0 | 4 | 0 | 0 | 1 | 6 |
+| 90d | 2026-08-09 | 0 | 7 | 0 | 1 | 1 | 9 |
+| last180d | 2026-05-11 | 2 | 15 | 0 | 1 | 2 | 108 |
+| 360d | 2025-11-12 | 3 | 35 | 0 | 7 | 2 | 248 |
+| last720d | 2024-11-17 | 15 | 74 | 0 | 23 | 2 | 471 |
 
 ## Release assets
 
@@ -66,7 +66,7 @@ Total: **7,931** lines of code across **71** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **51** distros on [repology.org](https://repology.org/project/tailspin). **30** are ✅ on the latest upstream release, **20** are ⚠️ on an older version.
+Reported by **54** distros on [repology.org](https://repology.org/project/tailspin). **32** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for tailspin lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:34:47Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:58:59Z._
