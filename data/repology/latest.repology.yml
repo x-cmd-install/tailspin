@@ -1,25 +1,55 @@
-- repo: nix_stable_25_05
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - admin
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tailspin
+  binnames:
+    - tailspin
+  visiblename: tailspin
+  version: 7.0.0
+  origversion: 7.0.0+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: tailspin
+  binnames:
+    - tailspin
   visiblename: tailspin
   version: 4.0.0
-  origversion: null
+  origversion: 4.0.0+dfsg-4
   status: outdated
-  summary: Log file highlighter
   maintainers:
-    - 7rat13@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: tailspin
-  visiblename: tailspin
-  version: 5.5.0
-  origversion: null
-  status: outdated
-  summary: Log file highlighter
-  maintainers:
-    - 7rat13@gmail.com
-  licenses:
-    - MIT
+    - dr@jones.dk
+  categories:
+    - universe/misc
 - repo: alpine_edge
   subrepo: testing
   srcname: tailspin
@@ -303,27 +333,14 @@
     - dr@jones.dk
   categories:
     - misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: tailspin
   binnames:
     - tailspin
   visiblename: tailspin
-  version: 2.0.0
-  origversion: 2.0.0+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 4.0.0
-  origversion: 4.0.0+dfsg-4
+  version: 5.4.2
+  origversion: 5.4.2~dfsg-1
   status: outdated
   maintainers:
     - dr@jones.dk
@@ -403,6 +420,28 @@
   srcname: tailspin
   visiblename: tailspin
   version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - 7rat13@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: tailspin
+  visiblename: tailspin
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: Log file highlighter
+  maintainers:
+    - 7rat13@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: tailspin
+  visiblename: tailspin
+  version: 5.5.0
   origversion: null
   status: outdated
   summary: Log file highlighter
@@ -505,45 +544,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 5.4.2
-  origversion: 5.4.2~dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - admin
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 5.4.2
-  origversion: 5.4.2~dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 7.0.0
-  origversion: 7.0.0+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: tailspin
@@ -575,14 +575,14 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: ubuntu_25_10
-  subrepo: questing/universe
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: tailspin
   binnames:
     - tailspin
   visiblename: tailspin
-  version: 5.4.2
-  origversion: 5.4.2~dfsg-1
+  version: 2.0.0
+  origversion: 2.0.0+dfsg-1
   status: outdated
   maintainers:
     - dr@jones.dk
@@ -616,19 +616,6 @@
     - universe/misc
 - repo: ubuntu_27_04
   subrepo: tenacious/universe
-  srcname: tailspin
-  binnames:
-    - tailspin
-  visiblename: tailspin
-  version: 6.1.0
-  origversion: 6.1.0+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
   srcname: tailspin
   binnames:
     - tailspin
