@@ -37,7 +37,7 @@ Total: **7,931** lines of code across **71** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 8,056 · **Forks**: 143 · **Open issues**: 90 · **Contributors**: 16
+- **Stars**: 8,061 · **Forks**: 143 · **Open issues**: 90 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **7,931** lines of code across **71** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 3 | 0 | 0 | 0 | 3 |
-| last60d | 2026-09-24 | 0 | 6 | 0 | 0 | 1 | 7 |
-| 90d | 2026-08-25 | 0 | 8 | 0 | 0 | 1 | 10 |
-| last180d | 2026-05-27 | 1 | 17 | 0 | 1 | 2 | 103 |
-| 360d | 2025-11-28 | 3 | 37 | 0 | 5 | 2 | 249 |
-| last720d | 2024-12-03 | 15 | 73 | 0 | 23 | 2 | 471 |
+| 30d | 2026-10-25 | 0 | 3 | 0 | 0 | 0 | 3 |
+| last60d | 2026-09-25 | 0 | 6 | 0 | 0 | 0 | 7 |
+| 90d | 2026-08-26 | 0 | 8 | 0 | 0 | 1 | 10 |
+| last180d | 2026-05-28 | 1 | 17 | 0 | 1 | 2 | 103 |
+| 360d | 2025-11-29 | 3 | 37 | 0 | 5 | 2 | 249 |
+| last720d | 2024-12-04 | 15 | 72 | 0 | 23 | 2 | 471 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for tailspin lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T10:37:29Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:30:48Z._
